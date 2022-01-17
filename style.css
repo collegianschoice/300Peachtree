@@ -1,14 +1,15 @@
 .grid {
     display: grid;
-    grid-template-rows: 9% 14% 25% 48% 7%;
+    grid-template-rows: 10% 14% 21% 48% 7%;
     grid-template-columns:  50% 50%;
-    grid-template-areas:    "header header"
+    grid-template-areas:    
+                            "header header"
                             "banner banner"
                             "property-summary property-summary"
                             "photos location"
                             "footer footer";
                             
-    border: 2px green solid;
+
     width: auto;
     gap: 10px;
     text-align: center;
@@ -19,16 +20,46 @@
   }
   
   body {
-  
+    display: flex;
+    flex-direction: column;
     font-family: 'Comic Sans', 'Arial', 'Didot', 'Cursive';
   }
   
+
+
+
+  .nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 220, 241);
+    overflow: hidden;
+
+  }
+
+  li {
+    float: left;
+  }
   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
   .header {
     grid-area: header;
     height: 300px;
     line-height: 9px;
     padding-top: 2rem;
+    padding-bottom: 0;
   }
   
   .banner {
@@ -166,3 +197,4 @@ ul {
   .button{
       margin: 20px;
   }
+
