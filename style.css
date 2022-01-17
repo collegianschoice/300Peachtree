@@ -18,13 +18,11 @@
     align-content: space-around;
   }
   
-  .body {
-    font-size: 10px;
+  body {
+  
+    font-family: 'Comic Sans', 'Arial', 'Didot', 'Cursive';
   }
   
-  .box {
-  
-  }
   
   .header {
     grid-area: header;
@@ -48,6 +46,7 @@
     max-height: 300px;
     justify-items: center;
     align-items: center;
+    margin-bottom: 10px;
   }
 
 .property-summary p {
@@ -56,11 +55,12 @@
     margin-right: auto;
     justify-self: center;
     text-align: left;
-    width: 70%;
+    width: 80%;
 }
 
   
   .gallery {
+    margin-top:10px;
     grid-area: photos;
     display: grid;
     grid-template: 100px 200px 1/ 25% 1fr;
@@ -71,6 +71,7 @@
   .gallery h3{
       grid-column: 1 / span 2;
       grid-row: 1 / span 1;
+ 
   }
   .gallery .thumbnails{
       grid-column: 1 / span 2;
@@ -106,6 +107,7 @@
 
   .location {
       grid-area: location;
+      margin-top: 10px;
   }
   
   .location iframe{
