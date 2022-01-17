@@ -35,7 +35,7 @@
   
   .banner {
     grid-area: banner;
-    background-image: url('media/exterior_bldg.jpg');
+    background-image: url('./media/exterior_bldg.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
