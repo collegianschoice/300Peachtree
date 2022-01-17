@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-rows: 150px 200px 300px 700px 100px;
+    grid-template-rows: 10% 14% 21% 48% 7%;
     grid-template-columns:  50% 50%;
     grid-template-areas:    "header header"
                             "banner banner"
@@ -151,5 +151,5 @@ ul {
   }
 
   .button{
-      margin: 45px;
+      margin: 20px;
   }
