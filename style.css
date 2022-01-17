@@ -39,6 +39,7 @@
     background-size: cover;
     max-height: 20rem;
     margin: 10px 10px 0px 0px;
+ 
   }
   
   .property-summary {
@@ -57,8 +58,20 @@
     text-align: left;
     width: 80%;
     overflow-wrap: scroll;
+    font-size: 1.3rem;
 }
 
+@media only screen and (max-width:625px) {
+    .property-summary p {
+    font-size: 0.99rem;
+  }
+}
+
+@media only screen and (min-width:990px) {
+  .property-summary p {
+    font-size: 1.6rem;
+  }
+}
   
   .gallery {
     margin:10px;
